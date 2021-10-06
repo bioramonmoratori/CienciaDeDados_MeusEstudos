@@ -35,6 +35,10 @@ print(dicionario1)
 
 #Tenta buscar uma chave
 print(dicionario1.get('Chave3', 'Nao Encontrei Nenhuma Chave Com Esse Nome'))
+print('>>>>>>>')
+chavees = []
+chavees = dicionario1.keys()
+print(chavees[0])
 
 #__________________Sets______________________
 
